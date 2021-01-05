@@ -3,7 +3,7 @@
     {
       "name": "ex1",
       "setup": "sudo apt update && sudo apt install octave octave-symbolic",
-      "run": "false",
+      "run": "octave --eval \"pkg load symbolic; source('aluno.m'); assert( strcmp( char(ex1()) , 't' ) )\"",
       "input": "",
       "output": "",
       "comparison": "included",
