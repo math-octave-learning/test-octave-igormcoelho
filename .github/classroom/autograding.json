@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "ex1",
+      "setup": "sudo apt update && sudo apt install octave octave-symbolic",
+      "run": "octave --silent --eval \"pkg load symbolic; source('aluno.m'); test tests.m\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
