@@ -3,7 +3,7 @@
     {
       "name": "ex1",
       "setup": "sudo apt update && sudo apt install octave octave-symbolic",
-      "run": "octave --silent --eval \"pkg load symbolic; source('aluno.m'); test tests.m\"",
+      "run": "false",
       "input": "",
       "output": "",
       "comparison": "included",
